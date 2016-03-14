@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "node": true
+  },
+  "plugins": ["react"],
+  "ecmaFeatures": {
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  },
+  "globals": {
+    "$": true,
+    "_": true,
+    "AT": true,
+    "ATCMS": true,
+    "Backbone": true,
+    "Community": true,
+    "Handlebars": true,
+    "jest": true,
+    "jQuery": true,
+    "JST": true,
+    "loadFixtures": true
+  },
+  "rules": {
+    "camelcase": 0,
+    "eol-last": 0,
+    "quotes": [2, "single"],
+    "new-cap": 0,
+    "no-alert": 1,
+    "no-console": 1,
+    "no-debugger": 1,
+    "no-trailing-spaces": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": 2,
+    "semi": [2, "always"],
+    "space-infix-ops": 0,
+    "curly": [2, "all"]
+  }
+}
