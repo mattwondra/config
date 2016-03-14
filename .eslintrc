@@ -2,26 +2,12 @@
   "env": {
     "browser": true,
     "es6": true,
-    "jasmine": true,
     "node": true
   },
   "plugins": ["react"],
   "ecmaFeatures": {
     "jsx": true,
     "experimentalObjectRestSpread": true
-  },
-  "globals": {
-    "$": true,
-    "_": true,
-    "AT": true,
-    "ATCMS": true,
-    "Backbone": true,
-    "Community": true,
-    "Handlebars": true,
-    "jest": true,
-    "jQuery": true,
-    "JST": true,
-    "loadFixtures": true
   },
   "rules": {
     "camelcase": 0,
